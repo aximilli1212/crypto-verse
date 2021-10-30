@@ -5,7 +5,7 @@ import { HomeOutlined, MoneyCollectOutlined, BulbOutlined, FundOutlined, MenuOut
 import icon from '../images/cryptocurrency.png'
 
  export const Navbar = ()=>{
-    const activeMenu = false;
+    const activeMenu = true;
 
     return (
         <div className="nav-container">
