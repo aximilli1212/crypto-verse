@@ -3,7 +3,9 @@ import React from 'react'
 const Exchanges = ()=>{
     return (
         <div>
-            Homepage
+            Exchanges
         </div>
     )
 }
+
+export default Exchanges
