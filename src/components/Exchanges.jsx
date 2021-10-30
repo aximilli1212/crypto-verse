@@ -1,11 +1,9 @@
 import React from 'react'
 
-const Homepage = ()=>{
+const Exchanges = ()=>{
     return (
         <div>
             Homepage
         </div>
     )
 }
-
-export default Homepage

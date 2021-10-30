@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Homepage = ()=>{
+const Cryptocurrencies = ()=>{
     return (
         <div>
             Homepage
@@ -8,4 +8,4 @@ const Homepage = ()=>{
     )
 }
 
-export default Homepage
+export default Cryptocurrencies

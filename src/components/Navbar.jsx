@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 import { HomeOutlined, MoneyCollectOutlined, BulbOutlined, FundOutlined, MenuOutlined} from '@ant-design/icons'
 import icon from '../images/cryptocurrency.png'
 
- export const Navbar = ()=>{
+const Navbar = ()=>{
     const activeMenu = true;
 
     return (
@@ -33,3 +33,5 @@ import icon from '../images/cryptocurrency.png'
         </div>
     )
 }
+
+export default Navbar
