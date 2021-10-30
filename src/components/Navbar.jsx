@@ -1,9 +1,12 @@
 import React from 'react'
 import {Button, Menu, Typography, Avatar} from 'antd'
 import {Link} from 'react-router-dom';
-import { HomeOutined, MoneyCollectOutlined, BulbOutlined, FundOutlined} from '@ant-design/icons'
+import { HomeOutlined, MoneyCollectOutlined, BulbOutlined, FundOutlined, MenuOutlined} from '@ant-design/icons'
+import icon from '../images/cryptocurrency.png'
 
  export const Navbar = ()=>{
+    const activeMenu = false;
+
     return (
         <div className="nav-container">
             <div className="logo-container">

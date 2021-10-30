@@ -6,8 +6,14 @@ import './App.css';
 
 function App() {
   return (
-    <div>
-     <h1>Cryptoverse</h1>
+    <div className="app">
+        <Navbar />
+        <div className="main">
+            Main
+        </div>
+        <div className="footer">
+            footer
+        </div>
     </div>
   );
 }
