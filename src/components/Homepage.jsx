@@ -12,8 +12,6 @@ const { Title } = Typography;
 
 const Homepage = () => {
     const { data, isFetching } = useGetCryptosQuery(10);
-    console.log(data);
-    console.log({shit: "Data Crypto brought"});
     const globalStats = data?.data?.stats;
 
     if (isFetching) return <Loader />;
